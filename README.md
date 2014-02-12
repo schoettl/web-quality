@@ -23,15 +23,14 @@ Dependencies
 * W3C Link Checker (offline version of <http://validator.w3.org/checklink>)
 * W3C Markup Validation Service (offline version of <http://validator.w3.org/>) -- really needed?
 
-   sudo apt-get install w3c-linkchecker
-   sudo apt-get install w3c-markup-validator
+`sudo apt-get -y install w3c-linkchecker w3c-markup-validator`
 
 For W3C Unicorn, follow the instructions under:
 http://code.w3.org/unicorn/wiki/Documentation/Install
 
 Also, git, mercurial, tomcat, ant and ivy are needed:
 
-    sudo apt-get install -y git mercurial tomcat7 ant
+    sudo apt-get -y install git mercurial tomcat7 ant
 
 Download or build Ivy as described here:
 http://ant.apache.org/ivy/download.cgi
