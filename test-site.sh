@@ -41,5 +41,5 @@ fi
 while read URL; do
 	checklink "$SITE_ROOT$URL"
 	#wget -Ounicorn-result.html "http://localhost:8080/unicorn/check?ucn_task=conformance&ucn_uri=$SITE_ROOT$URL"
-	firefox "http://localhost:8080/unicorn/check?ucn_task=conformance&ucn_uri=$SITE_ROOT$URL"
+	firefox "http://localhost:8080/unicorn/check?ucn_task=conformance&ucn_uri=$SITE_ROOT$URL" &
 done < "sites/$ALIAS"
